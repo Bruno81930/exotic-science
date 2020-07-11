@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +17,23 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section data-markdown data-menu-title="18-07-2020">
+						## Exotic Science Session
+						### 18-07-2020
+						![image](https://cdn.download.ams.birds.cornell.edu/api/v1/asset/71454661)
+					</section>
+					<section data-markdown data-menu-title="Sneha Manda">
+						### Sneha Manda
+						#### "Title"
+						![cover]()
+					</section>
+					<section data-markdown data-menu-title="Bruno Sotto-Mayor">
+						### Bruno Sotto-Mayor
+						#### "Detecting recurring and similar software vulnerabilities"
+						![cover](covers/1807220_bruno.png)
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -25,6 +41,7 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -33,7 +50,7 @@
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ]
 			});
 		</script>
 	</body>
